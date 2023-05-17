@@ -1,0 +1,198 @@
+*{
+    background-color: black;
+    color:white;
+         /* border:1px solid red;     */
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+    margin:0;
+}
+/* Container for nav buttons */
+ul {
+    height:60px;
+    width:100%;
+    padding: 10px;
+    position:fixed;
+    top:5;
+    left:0;
+    right:0;
+    margin:0 auto;
+    text-align:center;   /*this line here acutally centers the nav button, not margin:0 auto !!!! */
+    color:black;
+    background-color: white;
+    z-index:1;
+}
+/* nav buttons */
+li{
+    display:inline-block;
+    height:40px;
+    width:100px;
+    text-align:center;
+    text-transform:uppercase;
+    top:0;
+    left:0;
+    right:0;
+    padding:4px 0 4px 0;
+    margin:0 50px;
+    background-color:white;
+    color:black;
+    font-size:20px;
+}
+li:hover{
+    color:white;
+    background-color:black;
+    border-radius:5px;
+}
+/* longer box needed for right-most nav button */
+.shows{
+ width:150px;
+}
+
+li a{
+    color:black;
+    background-color:white;
+    height:40px;
+    width:100px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color:black;
+    color:white;
+}
+/* Containter for image */
+.main-logo{     
+    width:1000px;
+    height:800px;
+    position:relative;
+    top:30px;
+    left:0;
+    right:0;
+    margin:0 auto;
+}
+
+.main-logo img{
+    width:100%;
+    height:auto;
+    margin:0 auto;
+}
+
+main{
+    position:relative;
+    top:120px;
+}
+
+.about h2{
+    width:80px;
+    text-align:center;
+    margin:0 auto;
+    font-size:35px;
+    letter-spacing:1px;
+}
+
+.about p{
+    width:1200px;
+    text-align:center;
+    margin:10px auto;
+    font-size:20px;
+    letter-spacing: 1px;
+    word-spacing:3px;
+    padding:0 0 15px 0;
+}
+
+.link-images{
+    width:1300px;
+    margin:0 auto;
+    text-align:center;
+}
+.link-images img{
+    width:50px;
+    height:50px;
+    padding:5px;
+}
+.link-images img[src*="spotify"]{
+    margin:20px 135px 0 0;
+}
+.link-images img[src*="instagram"]{
+    margin:20px 75px 0 0;
+}
+.link-images img[src*="youtube"]{
+    margin:20px 100px 0 25px;
+}
+.link-images img[src*="facebook"]{
+    margin:20px 0 0 35px;
+}
+
+.link-images img:hover{
+    border:1px solid white;
+    border-radius:5px;
+}
+
+.links{
+    width:1000px;
+    margin:0 auto;
+    text-align:center;
+}
+.links p{   
+    display:inline-block;
+    text-align:center;
+    margin:10px 15px;
+}
+
+.links a{
+    text-decoration: none;
+    margin:10px 15px;
+}
+
+.upcoming-shows{
+    width:1500px;
+    height:400px;
+    margin:0 auto;
+    text-align:center;
+}
+
+table{
+    text-align:center;
+    margin:0 auto;
+    width:1300px;
+}
+
+th,
+td {
+    padding:10px;
+    font-size:20px;
+    width:300px;
+    border:1px solid white;
+    display:inline-block;
+    margin:3px 0;
+}
+
+th{
+    background-color:white;
+    color:black;
+    margin:50px 0 0 0;
+}
+
+.click-here a{
+    text-decoration: none;
+    height:100%;
+    width:100%;
+}
+.click-here a:hover{
+    background-color: red;
+}
+
+.click-here:hover{
+    background-color:red;
+    border:1px solid red;
+    border-radius:5px;
+}
+
+footer {
+    position:relative;
+    top:100px;
+    text-align:center;
+}
+
+footer p{
+    display:inline-block;
+    margin:0 10px 25px;
+}
